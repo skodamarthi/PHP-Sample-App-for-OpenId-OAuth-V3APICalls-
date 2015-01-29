@@ -37,7 +37,7 @@ In order to successfully run this sample app you need a few things:
 
 1. Latest version of PHP on your machine. This sample uses PHP 5.6.3.
 2. Install Apache Server and configure PHP 5 to run with Apache Server
-3. Download Intuit’s latest PHP devkit from https://developer.intuit.com/docs/0100_accounting/0500_developer_kits/0210_ipp_php_sdk_for_quickbooks_v3– This sample uses v3-php-sdk-2.0.5
+3. Download Intuit’s latest PHP devkit from https://developer.intuit.com/docs/0100_accounting/0500_developer_kits/0210_ipp_php_sdk_for_quickbooks_v3– This sample uses v3-php-sdk-2.0.5. (v3-php-sdk-2.0.5 is also included in this repository for your convenience!) 
 4. This sample needs LightOpenID library for OpenID. You can download  the LightOpenID library located [here](https://gitorious.org/lightopenid). Make sure that this is placed inside our PHPSample’s root folder.
 5. For Oauth implementation, this sample uses the Pecl Oauth library. Please download the Oauth 
 package from this [page](http://pecl.php.net/package/oauth)
