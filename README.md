@@ -106,10 +106,10 @@ Buttons and their functionalities:
     </ul>
 
 ### Project Structure
-1.	Create Employee: Please check the implementation in EmployeeCreate.php file. Employee information has to be set in IPPEmployee object before calling the Create API.
-2.	Get QBO Accounts: Please check the implementation in AccountsFindAll.php file. To paginate through all of the objects of a specific type in a given company, call the FindAll() method. Increment the startPosition parameter with each successive call.  The maxResult parameter is the number of objects to fetch in each call.
-3.	Create Journal Entry: Please check the implementation in CreateGJE.php file. Journal entry information has to be set in IPPJournalEntry object. JournalEntryLineDetails have to be set in IPPJournalEntryLineDetail and the line object has to be added to the main IPPJournalEntry object.
-4.	Trial Balance report: Reports SDK is not supported by the Intuit PHP SDK as of now. Please note that in this sample we are directly sending a HTTP request to the Reports API and not using the PHP devkit. 
+1.	**Create Employee**: Please check the implementation in EmployeeCreate.php file. Employee information has to be set in IPPEmployee object before calling the Create API.
+2.	**Get QBO Accounts**: Please check the implementation in AccountsFindAll.php file. To paginate through all of the objects of a specific type in a given company, call the FindAll() method. Increment the startPosition parameter with each successive call.  The maxResult parameter is the number of objects to fetch in each call.
+3.	**Create Journal Entry**: Please check the implementation in CreateGJE.php file. Journal entry information has to be set in IPPJournalEntry object. JournalEntryLineDetails have to be set in IPPJournalEntryLineDetail and the line object has to be added to the main IPPJournalEntry object.
+4.	**Trial Balance report**: Reports SDK is not supported by the Intuit PHP SDK as of now. Please note that in this sample we are directly sending a HTTP request to the Reports API and not using the PHP devkit. 
 <ul>
 <li>Implementation is in TrialBalanceReport.php file. We are decoding the json response from the server and displaying the required data in a html table.</li>
 <li>Various filters can be set in the form of query params to obtain the required information from the Quickbooks reports.</li>
